@@ -30,9 +30,9 @@
       "implementation": {
         "javascript": "server/node1.js",
         "when": {
-          "crontab": "*/5 * * * 1-5",
+          "crontab": "0 * * * 1-5",
           "run": {
-            "install": false,
+            "install": true,
             "update": false
           }
         }
